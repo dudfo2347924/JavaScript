@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>소개팅 대상 모집 문제</title>
+</head>
+<body>
+    <h2>소개팅 대상 모집</h2>
+    <script>
+        var gender = prompt("성별을 입력하세요.","여성");
+
+        var age = prompt('나이를 입력하세요.','20');
+
+        document.write('20대 대상의 소개팅을 준비 중입니다.');
+        document.write('<br><br>');
+        document.write('남성은 모집이 되었지만 여성은 아직 모집중입니다');
+        document.write('<br><br>');
+        document.write('20대 여성이라면 결과값이 true로, 아니면 false가 나오게 만드세요');
+
+        var result = (gender==="여성") && (age >= 20) && (age <30);
+        
+        document.write('<br><br>');
+        document.write("결과 : " + result + '<br>');
+
+    </script>
+</body>
+</html>
