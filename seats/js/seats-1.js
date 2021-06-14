@@ -1,6 +1,6 @@
-var customer = prompt("입장객은 몇명인가요?");
-var colnum = prompt("한 줄에 몇명씩 앉나요?");
-var rowNum;
+var customer = prompt("입장객은 몇명인가요?");//인원수
+var colnum = prompt("한 줄에 몇명씩 앉나요?");//좌석수
+var rowNum; //줄수
 
 if(customer % colnum ===0 ){
     rowNum = parseInt (customer / colnum ) ;

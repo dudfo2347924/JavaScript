@@ -1,0 +1,14 @@
+#item{
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+/* .over{
+    position: absolute;
+    left: 10px;
+    top: 270px;
+} */
+.text{
+    width: 400px;
+    display: none;
+}
