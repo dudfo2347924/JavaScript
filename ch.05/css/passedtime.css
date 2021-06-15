@@ -1,0 +1,20 @@
+#container{
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    text-align: center;
+
+    border: 2px solid black;
+    border-radius: 50%;
+}
+h1{
+    padding-top: 40px;
+    color: red;
+}
+#result{
+    font-size: 1.4em;
+    color: red;
+}
+p{
+    font-size: 1.3em;
+}

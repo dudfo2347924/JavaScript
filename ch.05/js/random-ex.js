@@ -1,14 +1,10 @@
 // var rand = Math.floor( Math.random()*6+1)
 
-// function dicex(){
+// function dice(){
 //     var rand = Math.floor( Math.random()*6+1)
 //     return rand;
 // }
 
-// function dicey(){
-//     var rand = Math.floor( Math.random()*6+1)
-//     return rand;
-// }    
 for(i =1 ; i <=11 ; i ++ ){
 
     var dice1,dice2,total
@@ -18,9 +14,9 @@ for(i =1 ; i <=11 ; i ++ ){
 
     total=dice1+dice2 ;
 
-    document.write(dice1+ ',&nbsp');
-    document.write(dice2+ ',&nbsp');
-    document.write(total);
+    document.write(dice1 + ' + ');
+    document.write(dice2 + ' = ');
+    document.write(total + ' ');
     
     if(total === 7) document.write("Seven Thrown!")
     if(total === 11)document.write("Eleven Thrown!")
