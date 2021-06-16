@@ -1,4 +1,4 @@
-var num = new Array();
+var num = new Array();//배열 생성
 document.write("배열의 길이 : " + num.length + " 개 <br>")
 
 num[0] = 95 ;
@@ -24,3 +24,8 @@ for(var i = 0 ; i < num.length ; i++){
     sum += num [i];
 }
 document.write(sum)
+document.write('<br>')
+
+
+var avg = sum / num.length ;
+document.write("평균 : " + avg);

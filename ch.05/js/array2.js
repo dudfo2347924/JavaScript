@@ -11,4 +11,5 @@ document.write('<br>')
 for(var i in fruits){
     document.write(fruits[i] + ' ')
 }
-
+var avg = sum / fruits.length ;
+document.write("평균 : " + avg);
